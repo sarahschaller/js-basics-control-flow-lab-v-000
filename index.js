@@ -8,6 +8,31 @@ function scuberGreetingForFeet(feet) {
   }
 }
 
+
 function ternaryCheckCity(city) {
   return city === 'NYC' ? 'Ok, sounds good.' : 'No go.';
 }
+
+
+function switchOnCharmFromTip(tip) {
+  switch (tip) {
+    case 'generous':
+      return 'Thank you so much.';
+      break;
+    case 'not as generous':
+      return 'Thank you.';
+      break;
+    default:
+      return 'Bye.';
+      break;
+      
+  }
+  
+  //if tip === 'generous' return 'Thank you so much.';
+  //if tip === 'not as generous' return 'Thank you.';
+  //if tip === 'thanks for everything' return 'Bye.';
+}
+
+
+
+
