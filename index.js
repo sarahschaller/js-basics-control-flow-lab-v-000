@@ -25,14 +25,5 @@ function switchOnCharmFromTip(tip) {
     default:
       return 'Bye.';
       break;
-      
   }
-  
-  //if tip === 'generous' return 'Thank you so much.';
-  //if tip === 'not as generous' return 'Thank you.';
-  //if tip === 'thanks for everything' return 'Bye.';
 }
-
-
-
-
